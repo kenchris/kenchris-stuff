@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type"><title>The future of GNOME and internationalization</title><meta name="generator" content="DocBook XSL Stylesheets V1.44"><link rel="home" href="index.html" title="The future of GNOME and internationalization"><link rel="next" href="ar01s02.html" title="The biggest problems"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The future of GNOME and internationalization</th></tr><tr><td width="20%" align="left"> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ar01s02.html">Next</a></td></tr></table><hr></div><div class="article"><div class="titlepage"><div><h1 class="title"><a name="guadec"></a>The future of GNOME and internationalization</h1></div><div><h3 class="author">Kenneth Rohde Christiansen</h3><div class="affiliation"><div class="address"><br>
+     <tt>&lt;<a href="mailto:kenneth@gnu.org">kenneth@gnu.org</a>&gt;</tt><br>
+    </div></div></div><div><div class="abstract"><p><a name="id2733507"></a><b>Abstract</b></p><p>
+     GNOME is really moving along nicely, and we 
+     have reached a state where it is almost ready for general consumption. 
+     GNOME 2.0 brings lots of improvements regarding usability and
+     accessibility; and also brings major advantages for localization, 
+     including Pango. 
+   </p><p>
+     Pango doesn't solve everything for us all by itself. First of all 
+     we rely heavily on gettext and
+     intltool. We also rely on a very strict 
+     release schedule for handling translations. So far it has been  
+     possible to translate GNOME into a variety of languages, but we have 
+     not yet done to make GNOME act professionally in these languages.
+   </p><p>
+     There are major problems with our current way of releasing and having 
+     a good localized GNOME desktop. People download new updates with such 
+     tools as Red Carpet, and suddenly their 
+     favorite program is no longer 100% translated but only 80%percnt;,
+     and what does this &#8220;sort descending&#8221; mean? 
+   </p><p>
+     Big problems like these are what keep GNOME from being really usable 
+     in non-English languages.
+   </p><p>
+     In this speech I shall talk about our current tools and release methods. 
+     I will introduce developers to some of the hidden but very useful 
+     features that intltool has.
+   </p><p>
+     As the end of the speech, I shall suggest a detailed idea of how to 
+     improve some of these problems. After that, we can discuss 
+     alternative ideas and figure out the future of GNOME and localization.
+   </p></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><a href="index.html#problems-today">Problems we have today</a></dt><dt><a href="ar01s02.html">The biggest problems</a></dt><dt><a href="ar01s03.html">Guidelines</a></dt><dd><dl><dt><a href="ar01s03.html#guide-general">General</a></dt><dt><a href="ar01s03.html#guide-indiv">For individual packages</a></dt></dl></dd></dl></div><div class="sect1"><a name="problems-today"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="problems-today"></a>Problems we have today</h2></div></div><p>
+    A couple of years ago we were having a lot of problems with translation, 
+    since a lot of new file formats like <tt>.glade</tt> and
+    <tt>.server.in</tt> showed up. Together with Maciej and 
+    Darin, I wrote intltool and we solved most 
+    of these problems. 
+  </p><p>
+    During this work we noticed that it was a huge help to centralize all 
+    kinds of translations into the <tt>.po</tt> files. This 
+    made it possible to write status scripts that showed us exactly
+    how well our language was supported, and also gave people a hint on
+    when they had to start working again :)
+  </p><p>
+    There were still problems left. The most notable one was that people 
+    didn't mail the <tt>&lt;<a href="mailto:gnome-i18n@gnome.org">gnome-i18n@gnome.org</a>&gt;</tt> mailing list to 
+    announce that they were about to make new releases. This has improved 
+    a lot, but it is still not perfect.
+  </p><p>
+    We also noticed that people often left out files from the 
+    <tt>POTFILES.in</tt> file, so I wrote a
+    <tt>--maintain</tt> option to check for this.
+  </p><p>
+    Over the last year intltool has envolved 
+    and added features like this to help maintaining translations work. 
+    Unfortunately only very few people know how to take advantage of these 
+    features, and only a few people want to use intltool, so I have been 
+    thinking about looking into the possibility of integrading intltool 
+    with gettext. Whether this is a good idea 
+    or not, I am not certain.
+  </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="ar01s02.html">Next</a></td></tr><tr><td width="40%" align="left"> </td><td width="20%" align="center"> </td><td width="40%" align="right"> The biggest problems</td></tr></table></div></body></html>

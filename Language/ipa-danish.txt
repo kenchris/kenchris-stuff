@@ -1,0 +1,63 @@
+These seem to be the best approximations I can come up with. 
+
+There is a tradition to use other IPA signs for the sounds, but these doesn't follow the sound examples from the IPA.  Compare with English, Norwegian, Icelandic at http://www.omniglot.com
+
+They other signs used are:
+ɑ instead of æ		ö instead of œ		
+å instead of ɔ		đ instead of đ ̞		
+æ instead of e
+
+I do not know the reason of this. But the above system seems to be used by some Danish dictionaries. Unfortunately, as Danish students map the sounds wrong in other languages.
+
+The "semi-official" IPA document as it variates from the Handbook of the International Phonetic Association is located hereː http://www.cphling.dk/~ng/pdf_filer/jipa2000.pdf
+
+The alphabet:
+
+a 	[æ, a] 
+b 	[b] 
+c 	[s, k] 
+d	[đ ̞, d] (notice the ð is lowered)
+e 	[e, ɛ, ə] 
+f 	[f] 
+g 	[g, j, w] 
+h 	[h, :]
+i 	[i, e] 
+j 	[j] 
+k 	[k, g] 
+l 	[l] 
+m 	[m] 
+n 	[n] 
+o 	[ʌ, ɔ, o]
+p 	[p, b] 
+q 	[k] 
+r 	[r, ʀ] the r should be another letter, like the r in sp. pero, and not the rr in perro 
+s 	[s] 
+t 	[t, đ ̞, d]
+u 	[u] 
+v 	[v] 
+w 	[v, w] 
+x 	[ks] 
+y 	[y, ʏ] 
+z 	[z, s]
+æ 	[e, ɛ] 
+ø 	[ø, œ, ɶ] 
+å 	[ʌ, ɔ, o]
+
+Diphtongs, etc...
+ng 	[ŋ]
+ej 	[aj]
+ci 	[ʃ] (jysk)
+sj 	[ʃ]
+år 	[ɒ]
+øj	[ɔi]
+nd	[] patalalized n (at least in my dialect :)
+ld	[] patalalized l
+hj   	[j] (the h is pronounced in Western Jutish)
+ch	[x] (from the dialect Synnejysk (Southern Jutish))
+
+Grammatical endings
+-e 	[ə]
+-er 	[ʌ]
+-lig  	[li]
+
+

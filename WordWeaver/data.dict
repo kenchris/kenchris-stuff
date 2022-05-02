@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary title="ANS Wourdebouk">
+  <word value="an-beden">
+    <pronounciation>['ʔaˑmbeːdn, 'ʔaˑmbeːdn]</pronounciation>
+    <etymology>deu. anbeten, nld. aanbidden</etymology>
+  </word>
+  <word value="an-beyden">
+    <pronounciation>['ʔaˑmbeːdn, 'ʔaˑmbeːdn]</pronounciation>
+    <etymology>deu. anbieten, nld. aanbieden</etymology>
+  </word>
+  <word value="apen">
+    <pronounciation>['ʔɒːpm, 'ʔoːpm]</pronounciation>
+    <etymology>deu. offen, nld. open</etymology>
+  </word>
+  <word value="arm">
+    <pronounciation>[ʔaːm, ʔaːm]</pronounciation>
+    <etymology>deu. Arm, nld. arm</etymology>
+  </word>
+  <word value="baard">
+    <pronounciation>[bɒːət, boːət]</pronounciation>
+    <etymology>deu. Bart, nld. baard</etymology>
+  </word>
+  <word value="barg">
+    <pronounciation>[baːx, baːx]</pronounciation>
+    <etymology>deu. Berg, nld. berg</etymology>
+  </word>
+  <word value="bed">
+    <pronounciation>[bɛt, bɛt]</pronounciation>
+    <etymology>deu. Bett, nld. bed</etymology>
+  </word>
+  <word value="beyr">
+    <pronounciation>[bɛˑɪə, biːə]</pronounciation>
+    <etymology>deu. Bier, nld. bier</etymology>
+  </word>
+  <word value="blau, blaag">
+    <pronounciation>[blaˑʊ, blɒːx, blaˑʊ]</pronounciation>
+    <etymology>deu. blau, nld. blauw</etymology>
+  </word>
+  <word value="blyven">
+    <word-type>v.</word-type>
+    <pronounciation>['bliːvm, 'bliːbm]</pronounciation>
+    <etymology>deu. bleiben, nld. blijven</etymology>
+  </word>
+  <word value="boot">
+    <pronounciation>[boːt, boˑʊt]</pronounciation>
+    <etymology>deu. Boot, nld. boot</etymology>
+  </word>
+  <word value="bruud">
+    <plural>brüyd'</plural>
+    <pronounciation>[bruːt, bruːt; bryːˑ(d), bryːd, bryːt]</pronounciation>
+    <etymology>deu. Braut, nld. bruid</etymology>
+  </word>
+  <word value="dau">
+    <pronounciation>[daˑʊ, daˑʊ]</pronounciation>
+    <etymology>deu. Tau, nld. dauw</etymology>
+  </word>
+  <word value="deyp">
+    <pronounciation>[dɛˑɪp, dɛˑɪp]</pronounciation>
+    <etymology>deu. tief, nld. diep</etymology>
+  </word>
+  <word value="döör">
+    <pronounciation>[dœːə, dœːə]</pronounciation>
+    <etymology>deu. Tür, nld. deur</etymology>
+  </word>
+  <word value="dörch, dör?">
+    <pronounciation>[dœˑə(ç), dœˑəç]</pronounciation>
+    <etymology>deu. durch, nld. door</etymology>
+  </word>
+  <word value="douen, doun">
+    <word-type>v.</word-type>
+    <pronounciation>[dɔˑʊn, deˑʊn]</pronounciation>
+    <etymology>deu. tun, nld. doen</etymology>
+  </word>
+  <word value="drayen">
+    <word-type>v.</word-type>
+    <pronounciation>[draˑɪ(ə)n, draˑɪ(ə)n]</pronounciation>
+    <etymology>deu. drehen, nld. draaien</etymology>
+  </word>
+  <word value="droum">
+    <pronounciation>[drɔˑʊm, dreˑʊm]</pronounciation>
+    <etymology>deu. Traum, nld. droom</etymology>
+  </word>
+  <word value="dröym(en)">
+    <word-type>v.</word-type>
+    <pronounciation>['drœːɪ(ː), 'drɔːɪm(ː)]</pronounciation>
+    <etymology>deu. Träume, nld. dromen</etymology>
+  </word>
+  <word value="Düytschland">
+    <pronounciation>['dyːʧlaˑnt, 'dyːʧlaˑnt]</pronounciation>
+    <etymology>deu. Deutschland, nld. Duitsland</etymology>
+  </word>
+  <word value="dyk">
+    <pronounciation>[diːk, diːk]</pronounciation>
+    <etymology>deu. Deich, nld. dijk</etymology>
+  </word>
+  <word value="eten">
+    <word-type>v.</word-type>
+    <pronounciation>['ʔeːtn, 'ʔeːtn]</pronounciation>
+    <etymology>deu. essen, nld. eten</etymology>
+  </word>
+  <word value="gaan">
+    <word-type>v.</word-type>
+    <conjugation>ga, gayst, gayt; gaan</conjugation>
+    <pronounciation>[gaan]</pronounciation>
+    <etymology>deu. er gehen, nld. gaan</etymology>
+  </word>
+  <word value="geyrn">
+    <pronounciation>[gɛˑɪən, giːən]</pronounciation>
+    <etymology>deu. gern, nld. gaarne</etymology>
+  </word>
+  <word value="groot">
+    <word-type>adj.</word-type>
+    <pronounciation>[ɣroːt, groːt]</pronounciation>
+    <etymology>deu. groß, nld. groot</etymology>
+    <description>1. large, big.</description>
+    <example>Albert sit binnen et ~e huus.</example>
+  </word>
+  <word value="halen">
+    <pronounciation>['hɒːɫn, 'hoːln]</pronounciation>
+    <etymology>deu. holen, nld. halen</etymology>
+  </word>
+  <word value="hoog">
+    <pronounciation>[hoːx, hoˑʊx]</pronounciation>
+    <etymology>deu. hoch, nld. hoog</etymology>
+  </word>
+  <word value="höpen">
+    <word-type>v.</word-type>
+    <pronounciation>['høːpm, 'høːpm]</pronounciation>
+    <etymology>deu. hoffen, nld. hopen</etymology>
+  </word>
+  <word value="hour">
+    <pronounciation>[hɔˑʊə, huːə]</pronounciation>
+    <etymology>deu. Hure, nld. hoer</etymology>
+  </word>
+  <word value="höyren">
+    <pronounciation>[hœːɪən, hyːən]</pronounciation>
+    <etymology>deu. hören, nld. horen</etymology>
+  </word>
+  <word value="hund">
+    <plural>hunden</plural>
+    <gender>dey ~</gender>
+    <word-type>m.</word-type>
+    <pronounciation>[hʊnd; hʊndn]</pronounciation>
+    <etymology>deu. Hund, nld. hond</etymology>
+    <description>1. dog; animal with four legs.</description>
+    <example>Reynke speelt mit eyn ~</example>
+  </word>
+  <word value="huus">
+    <plural>hüys'</plural>
+    <pronounciation>[huːs, huːs; hyːˑz, hyːz, hyːs]</pronounciation>
+    <etymology>deu. Haus, nld. huis</etymology>
+  </word>
+  <word value="ik lees'">
+    <word-type>v.</word-type>
+    <pronounciation>[ʔɪk'leːˑz, ʔɪk'leːz, ʔɪk'leːs]</pronounciation>
+    <etymology>deu. ich lese, nld. ik lees</etymology>
+  </word>
+  <word value="ik weet">
+    <word-type>v.</word-type>
+    <pronounciation>[ʔɪk'veːt, ʔɪk'veːt]</pronounciation>
+    <etymology>deu. ich weiß, nld. ik weet</etymology>
+  </word>
+  <word value="kaart">
+    <pronounciation>[kɒːət, koːət]</pronounciation>
+    <etymology>deu. Karte, nld. kaart</etymology>
+  </word>
+  <word value="kalm">
+    <pronounciation>[kaˑɫm, kaˑlm]</pronounciation>
+    <etymology>deu. ruhig, still, nld. kalm</etymology>
+  </word>
+  <word value="keyn">
+    <pronounciation>[kɛˑɪn, kɛˑɪn]</pronounciation>
+    <etymology>deu. kein, nld. geen</etymology>
+  </word>
+  <word value="keyrl">
+    <pronounciation>[kɛˑɪəɫ, kiːəl]</pronounciation>
+    <etymology>deu. Kerl, nld. kerel</etymology>
+  </word>
+  <word value="kind">
+    <plural>kinder</plural>
+    <pronounciation>[kɪˑnt, kɪˑnt; 'kɪˑnə, 'kɪˑnə]</pronounciation>
+    <etymology>deu. Kind, nld. kind</etymology>
+  </word>
+  <word value="könen">
+    <pronounciation>[køːnː, køːnː]</pronounciation>
+    <etymology>deu. können, nld. kunnen</etymology>
+  </word>
+  <word value="kring">
+    <plural>kringen</plural>
+    <pronounciation>[krɪˑŋ(k), krɪˑŋ(k); 'krɪˑŋː, 'krɪˑŋː]</pronounciation>
+    <etymology>deu. Kreis, nld. kring</etymology>
+  </word>
+  <word value="laat">
+    <pronounciation>[lɒːt, loːt]</pronounciation>
+    <etymology>deu. spät, nld. laat</etymology>
+  </word>
+  <word value="lang">
+    <pronounciation>[laˑŋk, laˑŋk]</pronounciation>
+    <etymology>deu. lang, nld. lang</etymology>
+  </word>
+  <word value="lesen">
+    <word-type>v.</word-type>
+    <pronounciation>['leːzn, 'leːzn]</pronounciation>
+    <etymology>deu. lesen, nld. lesen</etymology>
+  </word>
+  <word value="loupen">
+    <word-type>v.</word-type>
+    <pronounciation>['lɔʊpm, 'leʊpm]</pronounciation>
+    <etymology>deu. laufen, nld. lopen</etymology>
+  </word>
+  <word value="lüyd'">
+    <pronounciation>[lyːˑ(d), lyːd, lyːt]</pronounciation>
+    <etymology>deu. Leute, nld. lui</etymology>
+  </word>
+  <word value="meel">
+    <pronounciation>[meːɫ, meːl]</pronounciation>
+    <etymology>deu. Mehl, nld. meel</etymology>
+  </word>
+  <word value="meyr">
+    <pronounciation>[mɛˑɪə, miːə]</pronounciation>
+    <etymology>deu. mehr, nld. meer</etymology>
+  </word>
+  <word value="my">
+    <pronounciation>[miː, miˑ, miː, miˑ]</pronounciation>
+    <etymology>deu. mir, mich, nld. mij, me</etymology>
+  </word>
+  <word value="naam">
+    <pronounciation>[nɒːm, noːm]</pronounciation>
+    <etymology>deu. Name, nld. naam</etymology>
+  </word>
+  <word value="peyrd">
+    <plural>peyrd', peyre, peyrden</plural>
+    <gender>et/it/dat ~</gender>
+    <word-type>n.</word-type>
+    <pronounciation>[pɛˑɪət, piːət, piˑət; p*ːə(d), p*ə(də|dn)]</pronounciation>
+    <etymology>deu. Pferd, nld. paard</etymology>
+    <description>1. horse; animal with four legs.</description>
+    <example>Hey rydt up eyn ~</example>
+  </word>
+  <word value="pourt">
+    <pronounciation>[pɔˑʊət, puːət]</pronounciation>
+    <etymology>deu. Pforte, Tor, nld. poort</etymology>
+  </word>
+  <word value="put, pot">
+    <pronounciation>[pʊt, pɔt, pɔt]</pronounciation>
+    <etymology>deu. Topf, nld. pot</etymology>
+  </word>
+  <word value="sand">
+    <pronounciation>[zaˑnt, zaˑnt]</pronounciation>
+    <etymology>deu. Sand, nld. zand</etymology>
+  </word>
+  <word value="schip">
+    <pronounciation>[ʃɪp, ʃɪp]</pronounciation>
+    <etymology>deu. Schiff, nld. schip</etymology>
+  </word>
+  <word value="sey 1">
+    <word-type>v.</word-type>
+    <pronounciation>[zɛˑɪ, zɛˑɪ]</pronounciation>
+    <etymology>deu. sie, nld. zij, ze</etymology>
+  </word>
+  <word value="sey 2">
+    <pronounciation>[zɛˑɪ, zɛˑɪ]</pronounciation>
+    <etymology>deu. See, Meer, nld. zee</etymology>
+  </word>
+  <word value="seyn">
+    <conjugation>sey, seyst, seyt; seyn</conjugation>
+    <pronounciation>[zɛˑɪn, zɛˑɪn]</pronounciation>
+    <etymology>deu. sehen, nld. zien</etymology>
+  </word>
+  <word value="singen">
+    <word-type>v.</word-type>
+    <pronounciation>['zɪˑŋː, 'zɪˑŋː]</pronounciation>
+    <etymology>deu. singen, nld. zingen</etymology>
+  </word>
+  <word value="sney">
+    <pronounciation>[snɛˑɪ, snɛˑɪ]</pronounciation>
+    <etymology>deu. Schnee, nld. sneeuw</etymology>
+  </word>
+  <word value="söön">
+    <pronounciation>[zøːn, zøːn]</pronounciation>
+    <etymology>deu. Sohn, nld. zoon</etymology>
+  </word>
+  <word value="söyt">
+    <pronounciation>[zœˑɪt, zɔˑɪt]</pronounciation>
+    <etymology>deu. süß, nld. zoet</etymology>
+  </word>
+  <word value="staan">
+    <pronounciation>[stɒːn, stoːn]</pronounciation>
+    <etymology>deu. stehen, nld. staan</etymology>
+  </word>
+  <word value="steyn">
+    <plural>steynen</plural>
+    <gender>dey ~</gender>
+    <word-type>m.</word-type>
+    <pronounciation>[staɪn, stɛɪn, steˑn, stiˑn; st*ndn]</pronounciation>
+    <etymology>deu. Stein, nld. steen</etymology>
+    <description>1. stone; small rock.</description>
+  </word>
+  <word value="sün">
+    <pronounciation>[zʏˑn, zʏˑn]</pronounciation>
+    <etymology>deu. Sonne, nld. zon</etymology>
+  </word>
+  <word value="swart, swat">
+    <pronounciation>[svaːt, svat, svat]</pronounciation>
+    <etymology>deu. schwarz, nld. zwart</etymology>
+  </word>
+  <word value="syd">
+    <pronounciation>[ziːt, ziːt]</pronounciation>
+    <etymology>deu. Seite, nld. (blad)zij</etymology>
+  </word>
+  <word value="syd'">
+    <pronounciation>[ziːˑ(d), ziːd, ziːt]</pronounciation>
+    <etymology>deu. Seide, nld. zij(dendoek)</etymology>
+  </word>
+  <word value="tayn">
+    <pronounciation>[taˑɪn, taˑɪn]</pronounciation>
+    <etymology>deu. zehn, nld. tien</etymology>
+  </word>
+  <word value="teen">
+    <pronounciation>[teːn, teːn]</pronounciation>
+    <etymology>deu. Zehe, nld. teen</etymology>
+  </word>
+  <word value="teen">
+    <pronounciation>[teːn, teːn]</pronounciation>
+    <etymology>deu. Zahn, nld. tand</etymology>
+  </word>
+  <word value="teer">
+    <pronounciation>[teːə, teːə]</pronounciation>
+    <etymology>deu. Teer, nld. teer</etymology>
+  </word>
+  <word value="toon">
+    <pronounciation>[toːn, toˑʊn]</pronounciation>
+    <etymology>deu. Ton, nld. toon</etymology>
+  </word>
+  <word value="ünner">
+    <pronounciation>['ʔʏnə, 'ʔʏnə]</pronounciation>
+    <etymology>deu. unter, nld. onder</etymology>
+  </word>
+  <word value="us, uns">
+    <pronounciation>[ʔʊs, ʔʊˑns, ʔʊˑns]</pronounciation>
+    <etymology>deu. uns, unser, nld. ons</etymology>
+  </word>
+  <word value="vaken">
+    <pronounciation>['fɒːkŋ, 'foːkŋ]</pronounciation>
+    <etymology>deu. oft, nld. vaak</etymology>
+  </word>
+  <word value="vinger">
+    <pronounciation>['fɪˑŋə, 'fɪˑŋə]</pronounciation>
+    <etymology>deu. Finger, nld. vinger</etymology>
+  </word>
+  <word value="vör">
+    <pronounciation>[fœə, fœə]</pronounciation>
+    <etymology>deu. für, nld. voor</etymology>
+  </word>
+  <word value="vör">
+    <pronounciation>[fœə, fœə]</pronounciation>
+    <etymology>deu. vor, nld. voor</etymology>
+  </word>
+  <word value="vüyer, vüyr">
+    <pronounciation>['fyːə, 'fyːə]</pronounciation>
+    <etymology>deu. Feuer, nld. vuur</etymology>
+  </word>
+  <word value="wyn">
+    <pronounciation>[viːn, viːn]</pronounciation>
+    <etymology>deu. Wein, nld. wijn</etymology>
+  </word>
+</dictionary>

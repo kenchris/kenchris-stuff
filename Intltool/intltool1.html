@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <title>The future of GNOME and internationalization</title>
+  </head>
+<font size="+1" face=helvetica>    
+
+<h1>The future of GNOME and internationalization</h1>
+<h3><i>Kenneth Rohde Christiansen</i> - kenneth@gnu.org</h3>
+
+
+<h2>Current status</h2>
+
+<ul>
+<li>GNOME pretty mature, now ready for general comsumption
+<li>GNOME 2.0 has lovely internationalization support
+  <ul>
+  <li> Support for the rendering: Pango
+  <li> Support for translating, extracting strings etc: Gettext and Intltool
+  </ul>
+</ul>
+
+
+<h2>What will I talk about</h2>
+
+Problems we had and solved
+* What intltool is and does
+* The future of intltool
+* The current problems
+* Suggestion to how we can solve them
+
+
+Major problems that we solved
+
+* Many filetypes included strings to translate but couldn't be translated
+  (.server, .desktop, .oaf, .scm, .xml to mention a few)
+* A lot of files contained marked strings, but not included in the POTFILES.in
+
+
+What intltool is
+
+* History
+* A tool which acts like libtool, written in Perl, M4 etc
+* Extracts strings from various filetypes
+* Merges translated strings back to the original files
+* Finds files not included in POTFILES.in
+* Generates simple status views
+* Tool for converting to UTF-8
+
+
+The future of intltool
+
+* Fix the remaining bugs
+* Add support for non-supported filetypes
+* Maybe create C versions of the scripts
+
+  PROS: 
+    Can later be integrated with Gettext
+    More people can contribute
+
+  CONS:
+    It is very hard to get the scripts right
+    C versions will require a lot of testing
+
+* Add more DOCUMENTATION! This is where I really need help
+
+
+Simple demostration of Intltool
+
+
+Problems we are having today
+
+* Very badly documented intltool
+* People not knowing what intltool offers
+* The release schedule
+  - The UNIX way is ready as often as possible
+  - Red Carpet helps this
+
+  This gives us some problems.
+  
+  It is very important that we release often to get bugfixes
+  out, but the quality of the translations must not decrease 
+  at the same time.
+
+  Often it is enought to give the translators a week to 
+  update the translations, but unfortunately not always
+
+  - Doing translations is an enourmous workload
+    - Especially keeping them up to date (Quality assurance)
+    - Packages often get released in bursts
+    - People forget to announce changes
+    - There are often very few active translators
+    - Translators work in their sparetime
+    - Translators often have to fix the programs
+
+Guideline suggestion
+
+
+- Try to release more overal GNOME releases, 
+  and fewer individual package releases.
+
+It is a lot easier for translators to translate, review, and so on when they have adequate time. For a minor GNOME release, like for instance GNOME 2.0.1, it would be appropriate to have half a month from the string freeze until release.
+For individual packages
+
+When you want to release, please step into the /po directory and run intltool-update --maintain. This will tell you whether you have all the translatable files included in POTFILES.in. If you don't, then please do add them. Also make sure that the files are actually distributed along with the package.
+
+Use more POTFILES.ignore (if the file exists) to see whether some files are ignored by mistake.
+
+Now do intltool-update --report. This will list the status of the different languages. If there is a language that is well-supported, lets say sv is at 100%, then run LC_ALL=sv your_program. This should start your program with sv (Swedish) language support.
+
+Now check very carefully whether the program is actually fully translated. If is it not, there might be some problems to fix before the release.
+Small rant
+
+Now you may say 'Well, this is the job of translators'. I do not agree with this. There are very few translators for each language, and they have a tough enough time keeping up with releases, reviewing translations, finding bugs and so on. They need all the help they can get.
+
+If you see some English words, for example the word 'Port' in the Swedish edition, and you are uncertain whether the words are Swedish or not, then you can search for 'Port' in the sv.po file. If 'Port' is translated into the same word in Swedish it should look like this:
+
+msgid "Port"    // the English string
+msgstr "Port"   // the Swedish string
+   
+
+When everything is perfect it is then time to mail <gnome-i18n@gnome.org>.
+
+Do this at least a week before the actual release. Try to include the output of intltool-update --report in the email, so translators don't have to go and check themselves unnecessarily.
+
+Please send a second mail two days before release.
+
+Let's say that you saved the output of intltool-update --report the last time you released. Maybe to /po/LAST_RELEASE. Now you are ready to release, you should check that no language that at last release was above 80% is less translated than before. If it is, you should mail the translation team and ask what is up, and consider postponing the release for a couple of days or so. This should minimize the chances of people suddently seeing their desktop turn partly English.
+
+Now enter po/ and do intltool-update --report > ./LAST_RELEASE.
+
+From the internationalization point of view, you are now ready to release.
+
+
+COMMENTS, IDEAS, QUESTIONS

@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type"><title>Guidelines</title><meta name="generator" content="DocBook XSL Stylesheets V1.44"><link rel="home" href="index.html" title="The future of GNOME and internationalization"><link rel="up" href="index.html" title="The future of GNOME and internationalization"><link rel="previous" href="ar01s02.html" title="The biggest problems"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Guidelines</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ar01s02.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> </td></tr></table><hr></div><div class="sect1"><a name="guidelines"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="guidelines"></a>Guidelines</h2></div></div><p>
+   Here are my suggestions for guidelines.
+ </p><div class="sect2"><a name="guide-general"></a><div class="titlepage"><div><h3 class="title"><a name="guide-general"></a>General</h3></div></div><p>
+     Try to release more overal GNOME releases, and fewer individual 
+     package releases. 
+   </p><p>
+     It is a lot easier for translators to translate, review, and so on when
+     they have adequate time. For a minor GNOME release, like for instance
+     GNOME 2.0.1, it would be appropriate to have half a month from the string
+     freeze until release.
+   </p></div><div class="sect2"><a name="guide-indiv"></a><div class="titlepage"><div><h3 class="title"><a name="guide-indiv"></a>For individual packages</h3></div></div><p>
+     When you want to release, please step into the 
+     <tt>/po</tt> directory and
+     run <b>intltool-update --maintain</b>. This will tell 
+     you whether you have all the translatable files included in 
+     <tt>POTFILES.in</tt>. If you don't, then please do add them. 
+     Also make sure that the files are actually distributed along with the 
+     package.
+   </p><p>
+     Use <b>more POTFILES.ignore</b> (if the file exists) to 
+     see whether some files are ignored by mistake.
+   </p><p>
+     Now do <b>intltool-update --report</b>. This will list 
+     the status of the different languages. If there is a language that 
+     is well-supported, lets say <tt>sv</tt> is at 100%, 
+     then run 
+     <b>LC_ALL=sv <i><tt>your_program</tt></i></b>. 
+     This should start your program with sv (Swedish) language support.
+   </p><p>
+     Now check very carefully whether the program is actually fully 
+     translated. If is it not, there might be some problems to fix 
+     before the release.
+   </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2734944"></a>Small rant</h3><p>
+      Now you may say &#8216;Well, this is the job of translators&#8217;.
+      I do not agree with this. There are very few translators for each 
+      language, and they have a tough enough time keeping up with releases, 
+      reviewing translations, finding bugs and so on. They need all the help
+      they can get.
+    </p></div><p>
+     If you see some English words, for example the word &#8220;Port&#8221;
+     in the Swedish edition, and you are uncertain whether the words
+     are Swedish or not, then you can search for &#8220;Port&#8221; in 
+     the <tt>sv.po</tt> file. If &#8220;Port&#8221; is
+     translated into the same word in Swedish it should look like this:
+   </p><pre class="programlisting">
+msgid &quot;Port&quot;    // the English string
+msgstr &quot;Port&quot;   // the Swedish string
+   </pre><p>
+     When everything is perfect it is then time to mail 
+     <tt>&lt;<a href="mailto:gnome-i18n@gnome.org">gnome-i18n@gnome.org</a>&gt;</tt>.
+   </p><p>
+     Do this at least a week before the actual release. Try to include 
+     the output of <b>intltool-update --report</b> in the email, 
+     so translators don't have to go and check themselves unnecessarily.
+   </p><p>
+     Please send a second mail two days before release.
+   </p><p>
+     Let's say that you saved the output of 
+     <b>intltool-update --report</b> the last time you 
+     released. Maybe to <tt>/po/LAST_RELEASE</tt>. Now
+     you are ready to release, you should check that no language that
+     at last release was above 80% is less translated than before.
+     If it is, you should mail the translation team and ask what is up, 
+     and consider postponing the release for a couple of days or so. 
+     This should minimize the chances of people suddently seeing their 
+     desktop turn partly English.
+   </p><p>
+     Now enter <tt>po/</tt> and do 
+     <b>intltool-update --report &gt; ./LAST_RELEASE</b>.
+   </p><p>
+     From the internationalization point of view, you are now ready 
+     to release.
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ar01s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right"> </td></tr><tr><td width="40%" align="left">The biggest problems </td><td width="20%" align="center"><a accesskey="u" href="index.html">Up</a></td><td width="40%" align="right"> </td></tr></table></div></body></html>

@@ -1,0 +1,93 @@
+Defining a written language for Southern-Jutish (Sønderjysk/synnejysk)
+
+By Kenneth Rohde Christiansen <kenneth@gnu.org>
+
+
+Defining a writing system can be very difficult and there are a lot of factors 
+to consider. In the following I have tried to summarize this.
+
+WARNING: This is a lot of crap that needs to be seriously rewritten. Full of
+bad English and typos. All help is appreciated, also by non-jutes who might 
+have experience in this area.
+
+
+Ideas:
+
+o Make the writing system follow Standard-Danish as much as possible
+
+	Pro: 
+ 	Makes it easier for non-jutes to read the litterature.
+
+	Cons: 
+	Might hide some characteristics that might later be lost.
+	ex. Guld is pronounced like [Gul'] in sd. but like [Gul^j] in sj.
+	lj and nj is used in Bornholms Ordbog, so that might be an advantage
+	for using them.
+
+
+o SJ has dialects, so it might be possible to use sideforms like in Norwegian 
+  Nynorsk. This means that the main form is used in technical litterature, 
+  school books etc, but the side forms can be used in romans, poetry, personal
+  letters, etc.
+
+	Pro: 
+	Keeps the dialects alive. It is though, very important to keep the 
+	numbers of side forms low.
+
+	Cons:
+	Too many forms, will make it hard for teachers to know the forms and 
+	correct essays etc. This is a problem they have in Norway.
+
+o Use extra chars for vocals
+
+	Pro: 
+	Danish has many vocals with more than one sounds. If no extra chars 
+	are used it will be impossible for non-SJ people to know how to 
+	pronounce the different ø's etc. It also makes it hard for SJ people
+	to decide how to write a word without knowing the spelling by heart.
+
+	Eks. how to spell "en ond mand" (an evil man)
+	     Jæn ånd mand, or jæn ond mand?
+
+	Cons:
+	Using special letters makes it harder using the language on computers
+	so the easiest way to using diacritics which means more key types, and
+	harder writting the language on paper.
+
+	It would be possible to use circumflex (^) or umlaub (") for creating 
+	new letters.
+
+	using more than one letter (digraphs) for sounds might also be 
+	confusing. ex oae, oeu, etc.
+
+	How to write palatalized l and n's are an other problem. Also what 
+	about glottal stops. They are not the same place as in standard 
+	Danish. Though they might confuse the writing system, and people
+	dont need to be able to pronounce a language perfect in order to
+ 	know the spelling.
+
+
+
+o Standard a common subset of SJ and it's close relative West-Jutish, so we 
+  develop a written standard that is somewhat alike.
+
+o Find common things in Norwegian, Swedish, Jamska, Skånsk, Trøndersk and 
+  integrate these well.
+
+o Find old Jutish texts and see if we should build on the traditions. The
+  texts seem very old and the language changed a lot. These are some 
+  resources from the 1800-1900, but the spelling seem pretty inconsistent
+  (which is one of the things we want to prohibit)
+
+o Collect detailed and not-detailed IPA of the words used in the different
+  SJ dialects and in West Jutish. Compare and find general differences.
+  This means it might be that in one dialect they use the o sounds the same
+  places where another used å. This means that we can decide on using one
+  char for the letter, and just tread the difference as dialectal.
+
+o Look at what they did for Low Saxon in the Netherlands and Germany.
+  Link: http://www.sassisch.net/rhahn/low-saxon/ls-ortho.html
+
+
+It is probably an idea to start defining a spelling system for Jutish (leaving
+out Regional Jutish (Standard Danish with Jutish loanwords - spoken a lot today)) and they defining the spelling system for Southern-Jutish on top of it.

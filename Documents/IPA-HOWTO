@@ -1,0 +1,44 @@
+How to use IPA with GTK+ Applications
+
+View this in gedit with a font supporting IPA, like Arial Unicode.
+
+Does it support more than these chars? This is quite limited.
+
+ɛ (/ + 3), ʍ (/ + w), ə (/ + e), ɹ (/ + r), ʁ (/ + Shift + r), ɐ (/ + a), ɒ (/ + Shift + a),
+ɥ (/ + h), ɔ (/ + c), ʌ (/ + v) ɯ (/ + m)
+ʒ (3)
+a (a), ɑ (Shift + a), æ (a + e)
+b (b)
+c (c), ç (c+ ,)
+d (d) ð (d + h)
+e (e), ɛ (Shift + e), ɚ (e + -) 
+f (f),
+g (g), ɲ (g + n)
+h (h),
+i (i), ɪ (Shift + i), ɨ (i + -)
+j (j),
+k (k), 
+l (l), ʟ (Shift + ʟ)
+m (m), ʍ (Shift + m)
+n (n), ŋ (n + g)
+o (o), œ (o + e), ɶ (O + e), ø (o + /)
+p (p)
+q (q)
+r (r), ʀ (Shift + r)
+s (s), ʃ (s + h)
+t (t), θ (t + h) 
+u (u), ʊ (Shift + u), ʉ (u + -)
+v (v),
+x (x), 
+y (y), ʏ (Shift + y)
+z (z), ʒ (z + h)
+ɣ (Shift + 7, ampersan)
+
+Some of the missing charsː
+----------------------------------------
+Look atː http://www.arts.gla.ac.uk/IPA/fullchart.html
+Vocals and pulmonic consonants should be added
+
+Diacriticsː
+--------------
+Also needs to be added.
